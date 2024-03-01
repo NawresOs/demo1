@@ -1,0 +1,12 @@
+.btn {
+    border: solid 1px gray;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: lightgreen;
+    width: 100px;
+    text-align: center;
+    &:hover{
+        background-color: greenyellow;
+    }
+}
