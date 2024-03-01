@@ -8,5 +8,9 @@ import { Component, Input } from '@angular/core';
 export class AppComponent {
  
   title = 'demo1';
+  displayClickNumber(event : number):void{
+    console.log('click number',event);
+    
+  }
   
 }
